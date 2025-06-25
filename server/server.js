@@ -33,7 +33,7 @@ app.use("/api/ai/generate-explanation",protect,generateConceptExplanation);
 
 app.use("/uploads",express.static(path.join(__dirname,"uploads"),{}));
 
-app.get("/",res.send("Hello, API is live"));
+app.get("/",(req,res) => res.send("Hello, API is live"));
 
 const PORT = process.env.PORT || 4400;
 app.listen(PORT,() => {console.log(`Server is running on PORT:${PORT}`)});
