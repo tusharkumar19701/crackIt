@@ -44,7 +44,7 @@ const LandingPage = () => {
                             <LuSparkles /> AI Powered
                             </div>
                         </div>
-                        <h1 className="text-5xl text-black font-medium mb-6 leading-tight">Ace Interviews with <br /><span className='text-transparent bg-clip-text bg-[radial-gradient(circle,_#FF9324_0%,_#FCD760_100%)] bg-[length:120%_160%] font-semibold '>AI-Powered</span>{" "} Learning</h1>
+                        <h1 className="text-5xl text-black font-medium mb-6 leading-tight">Prepare for Interviews with <br /><span className='text-transparent bg-clip-text bg-[radial-gradient(circle,_#FF9324_0%,_#FCD760_100%)] bg-[length:120%_160%] font-semibold '>AI-Powered</span>{" "} Learning</h1>
                     </div>
                     <div className="w-full md:w-1/2">
                         <p className="text-[17px] text-gray-900 mr-0 md:mr-20 mb-6 ">
@@ -63,7 +63,7 @@ const LandingPage = () => {
                     <img src={heroImage} alt="hero image" className='rounded-lg' />
                 </section>
             </div>
-            <div className="w-full min-h-full bg-[#FFFCEF] mt-10">
+            <div className="w-full min-h-full bg-[#f4efff] mt-10">
                 <div className="container mx-auto px-4 pt-10 pb-20">
                     <section className="mt-5">
                         <h2 className='text-2xl font-medium text-center mb-12'>Features That Make You Shine</h2>
@@ -90,7 +90,7 @@ const LandingPage = () => {
                     </section>
                 </div>
             </div>
-            <div className="text-sm bg-gray-50 text-center p-5">Crack | 2025 |All Rights Reserved.</div>
+            <div className="text-sm bg-gray-50 text-center p-5">CrackIt | 2025 |All Rights Reserved.</div>
         </div>
         <Modal 
             isOpen={openAuthModal}
