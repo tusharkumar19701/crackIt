@@ -13,7 +13,7 @@ const app = express();
 
 //middleware fro cors
 app.use(cors({
-  origin: "https://crack-it-qtvl.vercel.app",
+  origin: "*",
   methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
   allowedHeaders: ["Content-Type", "Authorization"],
 }));
