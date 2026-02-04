@@ -13,9 +13,9 @@ const app = express();
 
 //middleware fro cors
 app.use(cors({
-    origin: "*",
-    methods: ["GET","POST","PUT","DELETE"],
-    allowedHeaders: ["Content-Type","Authorization"]
+  origin: "https://crack-it-qtvl.vercel.app",
+  methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
+  allowedHeaders: ["Content-Type", "Authorization"],
 }));
 
 connectDb();
